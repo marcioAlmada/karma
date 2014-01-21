@@ -1,0 +1,23 @@
+{
+    "name": "minime/karma",
+    "type": "library",
+    "description": "A router for the entire cosmos of namespaces",
+    "keywords": ["php", "router", "dsl router"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Márcio Almada",
+            "email": "marcio.web2@gmail.com",
+            "homepage": "http://github.com/marcioAlmada/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "mockery/mockery": "~0.8"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Minime\\Karma\\": "src/Karma/"
+        }
+    }
+}
